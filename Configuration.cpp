@@ -48,6 +48,14 @@ void Configuration::SaveSettings() {
 	file.write(data);
 }
 
+std::wstring Utf8ToUtf16(const std::string& utf8Str) {
+    if (utf8Str.empty()) return L"";
+    int size_needed = MultiByteToWideChar(CP_UTF8, 0, &utf8Str[0], (int)utf8Str.size(), NULL, 0);
+    std::wstring wstrTo(size_needed, 0);
+    MultiByteToWideChar(CP_UTF8, 0, &utf8Str[0], (int)utf8Str.size(), &wstrTo[0], size_needed);
+    return wstrTo;
+}
+
 void Configuration::LoadSettings() {
 	if (!ItemFilter::IsTxtDataLoaded()) {
 		return;
@@ -67,12 +75,16 @@ void Configuration::LoadSettings() {
 	uint32_t currentLineNumber = 0;
 
 	// Create an empty item filter file if it doesn't exist
-	std::wfstream in(m_Settings.wPath, std::ios::in | std::ios::app);
-	std::wstring line;
+    std::ifstream in(m_Settings.wPath, std::ios::in);
+	std::string sLine;
 	std::vector<std::wstring> lines;
 
-	while (std::getline(in, line)) {
+	while (std::getline(in, sLine)) {
 		currentLineNumber++;
+
+        // Convert the raw UTF-8 line to a Wide String (UTF-16) immediately
+        std::wstring line = Utf8ToUtf16(sLine);
+
 		if (line.find(COMMENT_STR) != std::wstring::npos) {
 			line = line.erase(line.find(COMMENT_STR));
 		}
