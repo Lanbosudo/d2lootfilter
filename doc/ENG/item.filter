@@ -104,43 +104,43 @@ Style T6
 Show
     Class Gem
     Class Amethyst
-    SetName {Purple}0 {White}{Name}
+    SetName {Purple}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Diamond
-    SetName {White}0 {White}{Name}
+    SetName {White}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Emerald
-    SetName {Dark Green}0 {White}{Name}
+    SetName {Dark Green}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Ruby
-    SetName {Red}0 {White}{Name}
+    SetName {Red}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Sapphire
-    SetName {Blue}0 {White}{Name}
+    SetName {Blue}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Topaz
-    SetName {Yellow}0 {White}{Name}
+    SetName {Yellow}GEM {White}{Name}
 Continue
 
 Show
     Class Gem
     Class Skull
-    SetName {Gray}0 {White}{Name}
+    SetName {Gray}GEM {White}{Name}
 Continue
 
 ######
@@ -402,28 +402,28 @@ Show
     Weapon True
     Rarity Unique
     Quality Normal
-    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ral Sol {Green}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ral Sol {Green}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Armor True
     Rarity Unique
     Quality Normal
-    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Tal Shael {White}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Tal Shael {White}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Weapon True
     Rarity Unique
     Quality Exceptional
-    SetDescription {Description}{White}Upgrade to elite with {Orange}Lum Pul {Green}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to elite with {Orange}Lum Pul {Green}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Armor True
     Rarity Unique
     Quality Exceptional
-    SetDescription {Description}{White}Upgrade to elite with {Orange}Ko Lem {White}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to elite with {Orange}Ko Lem {White}GEM{White} Perfect{Newline}
 Continue
 
 ######
@@ -434,28 +434,28 @@ Show
     Weapon True
     Rarity Rare
     Quality Normal
-    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ort Amn {Blue}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ort Amn {Blue}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Armor True
     Rarity Rare
     Quality Normal
-    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ral Thul {White}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to exceptional with {Orange}Ral Thul {White}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Weapon True
     Rarity Rare
     Quality Exceptional
-    SetDescription {Description}{White}Upgrade to elite with {Orange}Fal Um {Green}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to elite with {Orange}Fal Um {Green}GEM{White} Perfect{Newline}
 Continue
 
 Show
     Armor True
     Rarity Rare
     Quality Exceptional
-    SetDescription {Description}{White}Upgrade to elite with {Orange}Ko Pul {White}0{White}Perfect{Newline}
+    SetDescription {Description}{White}Upgrade to elite with {Orange}Ko Pul {White}GEM{White} Perfect{Newline}
 Continue
 
 ######
@@ -483,17 +483,17 @@ Continue
 
 Show
     Class Healing Potion
-    SetName {Red}HP{Potion Number}
+    SetName {Red}可口可乐{Potion Number}
 Continue
 
 Show
     Class Mana Potion
-    SetName {Blue}MP{Potion Number}
+    SetName {Blue}百事可乐{Potion Number}
 Continue
 
 Show
     Class Rejuv Potion
-    SetName {Purple}Rj{Potion Number}
+    SetName {Purple}紫药水{Potion Number}
 Continue
 
 Show 
@@ -706,6 +706,10 @@ Show
     SetDescription {Description}{Yellow}+r24+pg=>塔拉夏项链/+r22=>大君之怒{Newline}
     Continue
 Show
+    Code jew
+    SetDescription {Description}{Yellow}*12=>r22{Newline}
+    Continue
+Show
     Code r31
     SetDescription {Description}{Yellow}=> r30+r29{Newline}
     Continue
@@ -742,47 +746,47 @@ Show
     SetDescription {Description}{Yellow}6r8=>r22{Newline}=>r12/+vps=2pg/2jew{Newline}
     Continue
 Show
-    Code skr,9qr,7qr
+    Code skr,"9qr","7qr"
     SetDescription {Description}{Yellow}+4pg=>娜塔娅爪{Newline}
     Continue
 Show
-    Code 7ax
+    Code "7ax","9ax",axe
     SetDescription {Description}{Yellow}+r22=>屠夫{Newline}
     Continue
 Show
-    Code 72a
+    Code "72a"
     SetDescription {Description}{Yellow}+r27+r28=>无形符文大师{Newline}
     Continue
 Show
-    Code 7wa
+    Code "7wa"
     SetDescription {Description}{Yellow}+r27+r28=>无形死亡之刀{Newline}
     Continue
 Show
-    Code 7gw
+    Code "7gw"
     SetDescription {Description}{Yellow}+r30=>死亡之网{Newline}
     Continue
 Show
-    Code 7sc
+    Code "7sc"
     SetDescription {Description}{Yellow}+r24=>天堂之光{Newline}
     Continue
 Show
-    Code 7ws
+    Code "7ws"
     SetDescription {Description}{Yellow}+r24=>格叔杖/+r24+pg=>阿斯龙铁之保护{Newline}
     Continue
 Show
-    Code 7sp
+    Code "7sp"
     SetDescription {Description}{Yellow}+r21+pg=>恶魔爪牙{Newline}
     Continue
 Show
-    Code 7fl
+    Code "7fl"
     SetDescription {Description}{Yellow}+r24+r22=>暴风之结{Newline}
     Continue
 Show
-    Code 7fc
+    Code "7fc"
     SetDescription {Description}{Yellow}+r21+pg=Blade of Ali Baba{Newline}
     Continue
 Show
-    Code 7cr
+    Code "7cr"
     SetDescription {Description}{Yellow}+r21+pg=>光刀/+2i=>愤青{Newline}+#22=>无形金瑟的裂縫{Newline}
     Continue
 ######
@@ -1218,7 +1222,7 @@ Show
 #Griffon's Eye, Death's Fathom, Unearthed Wand, Death's Web, Crown of Age's
 Show
     #Type Diadem, Dimensional Shard, Unearthed Wand, Corona
-    Code ci3, obf, 7gw, urn
+    Code ci3, obf, "7gw", urn
     Rarity Unique
     SetStyle T1
 
@@ -1233,7 +1237,7 @@ Show
 #Eth Tomb Reaver, Eth Death Cleaver
 Show
     #Type Cryptic Axe, Berserker Axe
-    Code 7pa, 7wa
+    Code "7pa", "7wa"
     Rarity Unique
     Ethereal True
     SetStyle T1
@@ -1252,7 +1256,7 @@ Show
 # Eth Reaper's Toll, Eth Andariel's Visage
 Show
     #Type Thresher, Demonhead
-    Code 7s8, usk
+    Code "7s8", usk
     Rarity Unique
     Ethereal True
     SetStyle T2
@@ -1265,7 +1269,7 @@ Show
 # Head Hunter's Glory, Giant Skull, Windforce, Shadow Dancer, 
 # Astreon's Iron Ward, Mang Song's Lesson, Annihilus, Hellfire Torch
 Show
-    Code uap, usk, xtb, uhg, 7fl, ush, uh9, 6lw, uhb, 7ws, 7pa, 6ws, cm1, cm2
+    Code uap, usk, xtb, uhg, "7fl", ush, uh9, "6lw", uhb, "7ws", "7pa", "6ws", cm1, cm2
     Rarity Unique
     SetStyle T3
 
@@ -1317,7 +1321,7 @@ Show
 # Eschuta's Temper, Sandstorm Trek, Azurewrath, Magefist, Silkweave
 # Valkyrie Wing, Razortail, Skullder's Ire
 Show
-    Code oba, 6cs, pa9, ama, xea, xhb, zlb, uvg, baa, zhb, umc, uvc, uit, 7dg, cm3, amf, 7s8, upl, obc, uvb, 7cr, tgl, xmb, xhm, zvb, xpl
+    Code oba, "6cs", pa9, ama, xea, xhb, zlb, uvg, baa, zhb, umc, uvc, uit, "7dg", cm3, amf, "7s8", upl, obc, uvb, "7cr", tgl, xmb, xhm, zvb, xpl
     Rarity Unique
     SetStyle T4
 
@@ -1326,7 +1330,7 @@ Show
 # Eth Duriel's Shell, Eth Lacerator, Eth Warshrike, Eth Arioc's Needle, 
 # Eth Guardian Angel, Eth Shaftstop, Eth Runemaster, Eth Bonehew
 Show
-    Code xlm, xrn, 8ls, 7m7, 9tr, 9st, xpl, utu, xrs, 7b8, 7bk, 7sr, xlt, xhn, 72a, 7o7
+    Code xlm, xrn, "8ls", "7m7", "9tr", "9st", xpl, utu, xrs, "7b8", "7bk", "7sr", xlt, xhn, "72a", "7o7"
     Rarity Unique
     Ethereal True
     SetStyle T4
@@ -1335,7 +1339,7 @@ Show
 # Immortal King's Soul Cage, Guillame's Face, Trang Oul's Claws, Tal Rasha's Horadric Crest
 # Tal Rasha's Lidless Eye, Tal Rasha's Fine Spun Cloth
 Show
-    Code xtb, utc, ne9, 7ws, uar, xhm, xmg, xsk, oba, zmb
+    Code xtb, utc, ne9, "7ws", uar, xhm, xmg, xsk, oba, zmb
     Rarity Set
     SetStyle T4
 
@@ -1352,13 +1356,13 @@ Show
 # Kira's Guardian, Gull Dagger, Rockstopper, Bonehew, Gladiator's Bane,
 # Duriel's Shell, Lidless Wall, Snowclash, Guardian Angel, Frostburn
 Show
-    Code tbt, ulg, 8ls, dra, xvb, xh9, xlm, xrn, lbw, vgl, lbt, 9tr, 7kr, 7sc, tbl, nea, 9wn, 9tw, 9fc, xml, 9bw, mgl, ci2, dgr, xkp, 7o7, utu, xrs, xsh, ztb, xlt, hgl
+    Code tbt, ulg, "8ls", dra, xvb, xh9, xlm, xrn, lbw, vgl, lbt, "9tr", "7kr", "7sc", tbl, nea, "9wn", "9tw", "9fc", xml, "9bw", mgl, ci2, dgr, xkp, "7o7", utu, xrs, xsh, ztb, xlt, hgl
     Rarity Unique
     SetStyle T5
 
 # Eth Headstriker
 Show
-    Code 9bs
+    Code "9bs"
     Rarity Unique
     Ethereal True
     SetStyle T5
@@ -1366,7 +1370,7 @@ Show
 # Laying of Hands, Immortal King's Detail, Immortal King's Will, Naj's Puzzler
 # Griswold's Valor, Griswold's Honor
 Show
-    Code ulg, zhb, ba5, 6cs, urn, paf
+    Code ulg, zhb, ba5, "6cs", urn, paf
     Rarity Set
     SetStyle T5
 
@@ -1377,7 +1381,7 @@ Show
 # Widowmaker, Sazabi's Mental Sheath, Tarnhelm, Peasant Crown
 # Que-Hegan's Wisdom
 Show
-    Code 6sw, xhl, skp, xap, xtp
+    Code "6sw", xhl, skp, xap, xtp
     Rarity Unique
     SetStyle T6
 
@@ -1450,8 +1454,7 @@ Show
     Class Hand to Hand, Hand to Hand 2
     Rarity Rare
     Identified False
-    #Stats "Quality Level" >= 40
-    ItemLevel >= 40
+    Stats "Quality Level" >= 40
 
 # Druid Pelts
 #ItemDisplay[RARE DRU !ID]: %WHITE%+ %NAME%
@@ -1473,8 +1476,7 @@ Show
     Rarity Rare
     Ethereal True
     Identified False
-    #Stats "Affix Level" >= 55
-    ItemLevel >= 55
+    Stats "Affix Level" >= 55
 
 # Rare eth armor capable of 200 ED (Godly, alvl 50+)
 #ItemDisplay[RARE ETH !ID CHEST ALVL>49]: %NAME%
@@ -1483,8 +1485,7 @@ Show
     Rarity Rare
     Ethereal True
     Identified False
-    #Stats "Affix Level" >= 50
-    ItemLevel >= 50
+    Stats "Affix Level" >= 50
 
 # Sorc Orbs (for +5 orbs)
 Show
@@ -1660,7 +1661,7 @@ Show
 # +3 Holy shield CTA base
 Show
     #Type War Scepter, Divine Scepter, Caduceus
-    Code wsp, 9ws, 7ws
+    Code wsp, "9ws", "7ws"
     Rarity < Magic
     Sockets 0, 5
     Runeword False
@@ -1717,7 +1718,7 @@ Show
 # 0/3os Runic talons or Suwayyah with 3 LS +3 WB/Fade/MB/DF/SM (chaos)
 Show
     #Type Runic Talons, Suwayyah
-    Code 7t2, 7ar
+    Code "7tw", "7ar"
     Rarity < Magic
     Sockets 0, 3
     Ethereal False
@@ -1728,7 +1729,7 @@ Show
 # 0/3os Runic talons or Suwayyah with 3 venom +3 WB/Fade/MB/DF/SM (chaos)
 Show
     #Type Runic Talons, Suwayyah
-    Code 7t2, 7ar
+    Code "7tw", "7ar"
     Rarity < Magic
     Sockets 0, 3
     Ethereal False
@@ -1739,7 +1740,7 @@ Show
 # 0/5os scepter with conviction and fist of heavens
 Show
     #Type War Scepter, Divine Scepter, Caduceus
-    Code wsp, 9ws, 7ws
+    Code wsp, "9ws", "7ws"
     Rarity < Magic
     Sockets 0, 5
     Runeword False
@@ -1762,7 +1763,7 @@ Show
 # Holy shield CTA base
 Show
     #Type War Scepter, Divine Scepter, Caduceus
-    Code wsp, 9ws, 7ws
+    Code wsp, "9ws", "7ws"
     Rarity < Magic
     Sockets 0, 5
     Runeword False
@@ -1772,7 +1773,7 @@ Show
 # 4os Eth Cryptic Axe or Great Poleaxe with ED
 Show
     #Type Cryptic Axe, Great Poleaxe
-    Code 7pa, 7h7
+    Code "7pa", "7h7"
     Rarity < Magic
     Sockets 4
     Ethereal True
@@ -1783,7 +1784,7 @@ Show
 # 0/4os Eth Colossus Voulge with ED
 Show
     #Type Colossus Voulge
-    Code 7vo
+    Code "7vo"
     Rarity < Magic
     Sockets 4
     Ethereal True
@@ -1794,7 +1795,7 @@ Show
 # 4os Eth Thresher or Giant Thresher
 Show
     #Type Thresher, Giant Thresher
-    Code 7s8, 7wc
+    Code "7s8", "7wc"
     Rarity < Magic
     Sockets 4
     Ethereal True
@@ -1804,7 +1805,7 @@ Show
 # Eth Berserker Axe 0/6os with ED (botd), 5os eth berserker axe with ED (death)
 Show
     #Type Berserker Axe
-    Code 7wa
+    Code "7wa"
     Rarity < Magic
     Sockets 0, 5, 6
     Ethereal True
@@ -1814,7 +1815,7 @@ Show
 
 # Eth War Pike 0/6os with ED (botd)
 Show
-    Code 7p7
+    Code "7p7"
     Rarity < Magic
     Sockets 0, 6
     Ethereal True
@@ -1833,7 +1834,7 @@ Show
 
 # Eth Colossus Sword 0/5os with ED (death)
 Show
-    Code 7fb
+    Code "7fb"
     Rarity < Magic
     Sockets 0, 5
     Ethereal True
@@ -1843,7 +1844,7 @@ Show
 
 # Eth Colossus Blade 5os with ED (death)
 Show
-    Code 7gd
+    Code "7gd"
     Rarity < Magic
     Sockets 5
     Ethereal True
@@ -1853,7 +1854,7 @@ Show
 
 # Eth 0/6os Ghost Spear or Great Poleaxe with ED (botd)
 Show
-    Code 7st, 7h7
+    Code "7st", "7h7"
     Rarity < Magic
     Sockets 0, 6
     Ethereal True
@@ -1905,7 +1906,7 @@ Show
 
 # 5os Berserker Axe with ED (grief, beast)
 Show
-    Code 7wa
+    Code "7wa"
     Rarity < Magic
     Sockets 5
     Ethereal True
@@ -1945,7 +1946,7 @@ Show
 
 # Runic talons or Suwayyah base with 3 LS/Venon + WB/Fade/MB/DF/SM (chaos)
 Show
-    Code 7tw, 7ar
+    Code "7tw", "7ar"
     Rarity < Magic
     Sockets 0, 3
     Ethereal False
@@ -1968,7 +1969,7 @@ Show
 
 # 4os Eth Cryptic Axe or Great Poleaxe
 Show
-    Code 7pa, 7h7
+    Code "7pa", "7h7"
     Rarity < Magic
     Sockets 4
     Ethereal True
@@ -1977,7 +1978,7 @@ Show
 
 # 0/4os Eth Colossus Voulge
 Show
-    Code 7vo
+    Code "7vo"
     Rarity < Magic
     Sockets 0, 4
     Ethereal True
@@ -1986,7 +1987,7 @@ Show
 
 # Eth Berserker Axe 0/5/6os (botd/death)
 Show
-    Code 7wa
+    Code "7wa"
     Rarity < Magic
     Sockets 0, 5, 6
     Ethereal True
@@ -1995,7 +1996,7 @@ Show
 
 # Eth War Pike 0/6os (botd)
 Show
-    Code 7p7
+    Code "7p7"
     Rarity < Magic
     Sockets 0, 6
     Ethereal True
@@ -2013,7 +2014,7 @@ Show
 
 # Eth 0/6os Ghost Spear or Great Poleaxe (botd)
 Show
-    Code 7st, 7h7
+    Code "7st", "7h7"
     Rarity < Magic
     Sockets 0, 6
     Ethereal True
@@ -2022,7 +2023,7 @@ Show
 
 # 5os Berserker Axe (grief, beast)
 Show
-    Code 7wa
+    Code "7wa"
     Rarity < Magic
     Sockets 5
     Ethereal False
@@ -2051,7 +2052,7 @@ Show
 
 # 5os phase blade with ED (grief)
 Show
-    Code 7cr
+    Code "7cr"
     Rarity < Magic
     Sockets 5
     Runeword False
@@ -2081,7 +2082,7 @@ Show
 # 0os/3os 3 LS greater talons (Plague)
 Show
     Class Hand to Hand, Hand to Hand 2
-#    Code 9tw
+#    Code "9tw"
     Rarity < Superior
     Sockets 0, 3
     Runeword False
@@ -2090,7 +2091,7 @@ Show
 
 # 0/5os Eth Cryptic Axe, Thresher
 Show
-    Code 7pa, 7s8
+    Code "7pa", "7s8"
     Rarity < Magic
     Sockets 0, 5
     Runeword False
@@ -2099,7 +2100,7 @@ Show
 
 # 5os eth Great Poleaxe, giant thresher
 Show
-    Code 7h7, 7wc
+    Code "7h7", "7wc"
     Rarity < Magic
     Sockets 5
     Runeword False
@@ -2168,7 +2169,7 @@ Show
 
 # Runic talons or Suwayyah base with 3 LS/venom (chaos)
 Show
-    Code 7tw, 7ar
+    Code "7tw", "7ar"
     Rarity < Superior
     Sockets 0, 3
     Runeword False
@@ -2307,7 +2308,7 @@ Show
 
 # 5os phase blade (grief)
 Show
-    Code 7cr
+    Code "7cr"
 	Rarity < Magic
 	Runeword False
 	Sockets 5
@@ -2315,7 +2316,7 @@ Show
 
 # 3os eth, reasonable req 1h sword/axe (cmoon)
 Show
-    Code crs, bsd, lsd, wsd, axe, 2ax, mpi, wax, 9ax, 92a, 9wa
+    Code crs, bsd, lsd, wsd, axe, "2ax", mpi, wax, "9ax", "92a", "9wa"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2332,7 +2333,7 @@ Show
 
 # Eth 5os low req 1h weapon (CTA)
 Show
-    Code fla, wsp, crs, 2ax, mpi, wax
+    Code fla, wsp, crs, "2ax", mpi, wax
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2411,7 +2412,7 @@ Show
 
 # 0/6os eth archon staff (wolf botd)
 Show
-    Code 6ws
+    Code "6ws"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2420,7 +2421,7 @@ Show
 
 # 0/6os eth glorious axe (wolf botd)
 Show
-    Code 7gi
+    Code "7gi"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2429,7 +2430,7 @@ Show
 
 # 0/6os eth thunder maul (wolf botd)
 Show
-    Code 7gm
+    Code "7gm"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2438,7 +2439,7 @@ Show
 
 # Eth Ettin Axe 0/5os with ED (death)
 Show
-    Code 72a
+    Code "72a"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2448,7 +2449,7 @@ Show
 
 # 4os phase blade (Passion)
 Show
-    Code 7cr
+    Code "7cr"
 	Rarity < Magic
 	Runeword False
 	Sockets 4
@@ -2487,7 +2488,7 @@ Show
 
 # 3os phase blade (lawbringer)
 Show
-    Code 7cr
+    Code "7cr"
 	Rarity < Magic
 	Runeword False
 	Sockets 3
@@ -2524,7 +2525,7 @@ Show
 # 3 enchant, 0os staff that gets 2 from Larzuk (leaf)
 Show
     #Type Short Staff, Jo Staff, Walking Stick
-    Code sst, 8ss, 6ss
+    Code sst, "8ss", "6ss"
 	Rarity < Magic
 	Runeword False
 	Sockets 0, 2
@@ -2542,7 +2543,7 @@ Show
 
 # 15ED, 0/4os blade and great bows (merc faith)
 Show
-    Code 6hb, 6cb
+    Code "6hb", "6cb"
 	Rarity < Magic
 	Runeword False
 	Sockets 0, 4
@@ -2570,7 +2571,7 @@ Show
 
 # 3 energy shield 0os staff with max 4 sockets (memory)
 Show
-    Code cst, bst, 8cs, 8bs, 6cs, 6bs
+    Code cst, bst, "8cs", "8bs", "6cs", "6bs"
 	Rarity < Magic
 	Runeword False
 	Sockets 0
@@ -2608,7 +2609,7 @@ Show
 
 # Eth Colossus Sword 0/5os (death)
 Show
-    Code 7fb
+    Code "7fb"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2617,7 +2618,7 @@ Show
 
 # Eth Colossus Blade 5os (death)
 Show
-    Code 7gd
+    Code "7gd"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2649,7 +2650,7 @@ Show
 
 # 0/4os Eth Oath Bases (Oath)
 Show
-    Code 7gs, 7ls, 7la, 7ax, 7bs, 7cm, 7b7
+    Code "7gs", "7ls", "7la", "7ax", "7bs", "7cm", "7b7"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2658,7 +2659,7 @@ Show
 
 # 4os Eth Oath Bases (Oath)
 Show
-    Code 7wa, 7fb, 7gd, 7fl, 72a, 7mp, 7ba, 7bt, 7ga, 7gi
+    Code "7wa", "7fb", "7gd", "7fl", "72a", "7mp", "7ba", "7bt", "7ga", "7gi"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2706,20 +2707,20 @@ Show
     #Type != Bardiche
     #Type != Lochaber Axe
     Code != bar
-    Code != 9b7
+    Code != "9b7"
 	Rarity < Magic
 	Runeword False
     ItemLevel > 25
     ItemLevel < 41
-	Sockets 0
+    Sockets 0
 	SetStyle T6
 
 Show
-    Code vou, 9vo, 7vo
+    Code vou, "9vo", "7vo"
 	Rarity < Magic
 	Runeword False
     ItemLevel > 25
-	Sockets 0
+    Sockets 0
 	SetStyle T6
 
 # swords with exactly 4 sockets (spirit)
@@ -2763,7 +2764,7 @@ Show
 
 # eth elite swords that Larzuk for 3os (merc lawbringer)
 Show
-    Code 7wd, 72h
+    Code "7wd", "72h"
 	Rarity < Magic
 	Runeword False
 	Ethereal True
@@ -2833,6 +2834,10 @@ Show
     #Type Wirt's Leg
     Code leg
 
+# price
+Show
+    Price > 10000
+
 #Comment to hide large charms
 Show
     #Type Large Charm
@@ -2895,8 +2900,5 @@ Show
 ######
 # END Misc
 ######
-Show
-    Class Bow
-    #Stats "Amazon +%d to Javelin and Spear Skills" > 0
-    Stats Stat(188,0) > 0
+
 Hide
