@@ -704,6 +704,112 @@ Show
     SetName {Name} {Red}({Sockets})
 Continue
 
+Show
+    Price > 10000
+    SetName {Name}{Yellow}10k+
+Continue
+
+#belt
+Show
+    Code lbl, vbl
+    SetDescription {Description}{White}+1 row{Newline}
+Continue
+Show
+    Code mbl, tbl
+    SetDescription {Description}{White}+2 row{Newline}
+Continue
+Show
+    Class Belt
+    Code != lbl
+    Code != vbl
+    Code != mbl
+    Code != tbl
+    SetDescription {Description}{White}+3 row{Newline}
+Continue
+
+# Potential sockets
+# shield, polearms, sword
+Show
+    Code buc, xuc
+    Rarity Normal, Superior
+    Sockets 0
+    SetName {Name}{Gray}1o
+Continue
+#shield, sword
+Show
+    Code sml,bsh,spk,xml,xsh,xpk,uuc,uml, ssd,scm,sbr,flc,"9ss","9sm","9sb","9fc","7ss","7sm","7sb","7fc"
+    Rarity Normal, Superior
+    Sockets 0
+    SetName {Name}{Gray}2o
+Continue
+#shield, polearms, sword
+Show
+    Code lrg,kit,tow,gts,xrg,xit,xow,xts,urg, bar,"9b7", wsd,"2hs","9wd","92h","7wd","72h"
+    Rarity Normal, Superior
+    Sockets 0
+    SetName {Name}{Gray}3o
+Continue
+#pal shield, polearms 4o 5o 6o
+Show
+    Code pa1,pa2,pa3,pa4,pa5,pa6,pa7,pa8,pa9,paa,pab,pac,pad,pae,paf, vou,"9vo","7vo", scy,pax,"9s8","9pa","7s8","7pa", hal,wsc,"9h9","9wc","7h7","7wc"
+    Rarity Normal, Superior
+    ItemLevel < 26
+    Sockets 0
+    SetName {Name}{Gray}3o
+Continue
+# sword 4o 5o 6o
+Show
+    Code bsd,lsd,clm,gis,bsw,"9bs","9ls","9cm","9gs","9b9","7bs","7ls","7cm","7gs","7b7", flb,"9fb","7fb", crs,gsd,"9cr","9gd","7cr","7gd"
+    Rarity Normal, Superior
+    ItemLevel < 26
+    Sockets 0
+    SetName {Name}{Gray}3o
+    Continue
+#polearms 4o 5o 6o
+Show
+    Code vou,hal,"9vo",pax,"7vo",scy,pax,"9s8","9pa","7s8","7pa", hal,wsc,"9h9","9wc","7h7","7wc"
+    Rarity Normal, Superior
+    ItemLevel >= 26
+    ItemLevel <= 40
+    Sockets 0
+    SetName {Name}{Gray}4o
+    SetDescription {Description}{White}+2pg=>4 socks{Newline}
+Continue
+# sword 4o 5o 6o
+Show
+    Code bsd,lsd,clm,gis,bsw,"9bs","9ls","9cm","9gs","9b9","7bs","7ls","7cm","7gs","7b7", flb,"9fb","7fb", crs,gsd,"9cr","9gd","7cr","7gd"
+    Rarity Normal, Superior
+    ItemLevel >= 26
+    ItemLevel <= 40
+    Sockets 0
+    SetName {Name}{Gray}4o
+    SetDescription {Description}{White}+2pg=>4 socks{Newline}
+Continue
+# polearms sword 6o
+Show
+    Code hal,wsc,"9h9","9wc","7h7","7wc", crs,gsd,"9cr","9gd","7cr","7gd"
+    Rarity Normal, Superior
+    ItemLevel > 40
+    Sockets 0
+    SetName {Name}{Gray}6o
+Continue
+#shield 4o
+Show
+    Code uit,uow,uts
+    Rarity Normal, Superior
+    ItemLevel <= 40
+    Sockets 0
+    SetName {Name}{Gray}3o
+Continue
+#shield, polearm 4o
+Show
+    Code uit,uow,uts, pa1,pa2,pa3,pa4,pa5,pa6,pa7,pa8,pa9,paa,pab,pac,pad,pae,paf, vou,"9vo","7vo"
+    Rarity Normal, Superior
+    ItemLevel > 40
+    Sockets 0
+    SetName {Name}{Gray}4o
+    SetDescription {Description}{White}+2pg=>4 socks{Newline}
+Continue
 ######
 # Socket Recipes
 ######
