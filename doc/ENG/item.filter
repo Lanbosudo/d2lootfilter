@@ -699,10 +699,12 @@ Continue
 ######
 Show
     Code rin
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+4i=>soj/+r22=>烏鴉之霜/+i+r24=>布爾凱索之戒{Newline}+r22=>大君之怒/+r23=>大自然的和平/+r23+pg=>鬼火{Newline}
     Continue
 Show
     Code amu
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r24+pg=>塔拉夏项链/+r22=>大君之怒{Newline}
     Continue
 Show
@@ -747,47 +749,421 @@ Show
     Continue
 Show
     Code skr,"9qr","7qr"
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+4pg=>娜塔娅爪{Newline}
     Continue
 Show
     Code "7ax","9ax",axe
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r22=>屠夫{Newline}
     Continue
 Show
-    Code "72a"
+    Code "72a","92a","2ax"
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r27+r28=>无形符文大师{Newline}
     Continue
 Show
-    Code "7wa"
+    Code "7wa","9wa",wax
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r27+r28=>无形死亡之刀{Newline}
     Continue
 Show
-    Code "7gw"
+    Code "7gw","9gw",gwn
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r30=>死亡之网{Newline}
     Continue
 Show
-    Code "7sc"
+    Code "7sc","9sc",scp
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r24=>天堂之光{Newline}
     Continue
 Show
-    Code "7ws"
+    Code "7ws","9ws",wsp
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r24=>格叔杖/+r24+pg=>阿斯龙铁之保护{Newline}
     Continue
 Show
-    Code "7sp"
+    Code "7sp","9sp",spc
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r21+pg=>恶魔爪牙{Newline}
     Continue
 Show
-    Code "7fl"
+    Code "7fl","9fl",fla
+    Rarity <= Rare
     SetDescription {Description}{Yellow}+r24+r22=>暴风之结{Newline}
     Continue
 Show
-    Code "7fc"
-    SetDescription {Description}{Yellow}+r21+pg=Blade of Ali Baba{Newline}
+    Code "7fc","9fc",flc
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}阿里巴巴{Newline}
     Continue
 Show
-    Code "7cr"
-    SetDescription {Description}{Yellow}+r21+pg=>光刀/+2i=>愤青{Newline}+#22=>无形金瑟的裂縫{Newline}
+    Code "7cr","9cr",crs
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+pg=>光刀/+2i=>愤青{Newline}+r22=>无形金瑟的裂縫{Newline}
+    Continue
+Show
+    Code "7bs","9bs",bsd
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i+pg=>无形击头者{Newline}
+    Continue
+Show
+    Code "7dg","9dg",dgr
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+pg=>巫师之刺{Newline}
+    Continue
+Show
+    Code "7sr","9sr",spr
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>无形艾里欧克之针{Newline}
+    Continue
+Show
+    Code "7tr","9tr",tri
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>无形水魔陷阱{Newline}
+    Continue
+Show
+    Code "7st",spt,"9st"
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r25=>无形宏森丹{Newline}
+    Continue
+Show
+    Code "7s8",scy,"9s8"
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r30=>无形丧钟{Newline}
+    Continue
+Show
+    Code "7pa","9pa",pax
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r31=>无形盗墓者{Newline}
+    Continue
+Show
+    Code "6ws","8ws",wst
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+3r25=>梅格之歌{Newline}
+    Continue
+Show
+    Code "6lw","8lw",lwb
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r26=>风之力{Newline}
+    Continue
+Show
+    Code ob2,ob7,obc
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>脾气{Newline}
+    Continue
+Show
+    Code am5,ama,amf
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r28=>无形泰坦{Newline}
+    Continue
+Show
+    Code oba,ob5,obf
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22=>眼球/+r28=>死亡深度{Newline}
+    Continue
+Show
+    Code dr5,dra,drf
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22=>加尔的长发{Newline}
+    Continue
+Show
+    Code cm3
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21=>UGC基德的运气{Newline}
+    Continue
+Show
+    Code gpv
+    SetDescription {Description}{Yellow}*6=>r22{Newline}
+    Continue
+Show
+    Code gpr
+    SetDescription {Description}{Yellow}*8=>r22{Newline}
+    Continue
+Show
+    Code skz
+    SetDescription {Description}{Yellow}*10=>r22{Newline}
+    Continue
+Show
+    Code gpw,gpy,gpg,gpb
+    SetDescription {Description}{Yellow}*12=>r22{Newline}
+    Continue
+Show
+    Code ghm, xhm,uhm
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>夜翼面纱{Newline}
+    Continue
+Show
+    Code crn,xrn,urn
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+r22=>格叔头冠/+r28=>2孔年纪{Newline}
+    Continue
+Show
+    Code lea,xea,uea
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>蛇魔法师之皮{Newline}
+    Continue
+Show
+    Code stu,xtu,utu
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r25=>无形斗士的祸根{Newline}
+    Continue
+Show
+    Code chn,xhn,uhn
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r25=>无形谢夫特{Newline}
+    Continue
+Show
+    Code brs,xrs,urs
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>无形都瑞尔的壳{Newline}
+    Continue
+Show
+    Code spl,xpl,upl
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r27=>无形詩寇蒂/+i=>无形阿卡尼的荣耀{Newline}
+    Continue
+Show
+    Code gth,xth,uth
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r24+r25=>塔拉夏衣服{Newline}
+    Continue
+Show
+    Code ful,xul,uul
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+4pg=>DRU绿甲{Newline}
+    Continue
+Show
+    Code aar,xar,uar
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22,r23=>IK甲/+r28=>泰瑞尔的力量{Newline}
+    Continue
+Show
+    Code kit,xit,uit
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>暴风之盾{Newline}
+    Continue
+Show
+    Code lgl,xlg,ulg
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22=>安置手套{Newline}
+    Continue
+Show
+    Code vgl,xvg,uvg
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>卓古拉之握{Newline}
+    Continue
+Show
+    Code tgl,xtg,utg
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22=>法师之拳{Newline}
+    Continue
+Show
+    Code hgl,xhg,uhg
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>碎钢{Newline}
+    Continue
+Show
+    Code tbt,xtb,utb
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>战争旅者{Newline}
+    Continue
+Show
+    Code hbt,xhb,uhb
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>蚀肉骑士/+r23+r24=>影舞者{Newline}
+    Continue
+Show
+    Code lbl,zlb,ulc
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>蜘蛛之网{Newline}
+    Continue
+Show
+    Code mbl,zmb,umc
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>心结{Newline}
+    Continue
+Show
+    Code tbl,ztb,utc
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+r22=>塔格奥腰带{Newline}
+    Continue
+Show
+    Code bhm,xh9,uh9
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r26=>无形吸血鬼的凝视{Newline}
+    Continue
+Show
+    Code ba2,ba7,bac
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r22=>狼嚎{Newline}
+    Continue
+Show
+    Code ba5,baa,baf
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r23=>亚瑞特的面容{Newline}
+    Continue
+Show
+    Code pa4,pa9,pae
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r25=>撒卡兰姆使者{Newline}
+    Continue
+Show
+    Code pa5,paa,paf
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+r22=>格叔盾{Newline}
+    Continue
+Show
+    Code ne4,ne9,nee
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+r21+r22=>塔格奥盾{Newline}
+    Continue
+Show
+    Code ne5,nea,nef
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>侏儒/+i+r23=魔力重生{Newline}
+    Continue
+Show
+    Code ci1,ci2,ci3
+    Rarity <= Rare
+    SetDescription {Description}{Yellow}+i=>马维娜的真实之眼/+r30=>格利风之眼{Newline}
+    Continue
+Show
+    Code cm3
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>pg{Newline}
+    Continue
+Show
+    Code rin
+    Rarity Unique
+    SetDescription {Description}{Yellow}wisp/peace=>r22,raven=>r21,wedding=>r25,soj=>2*r25{Newline}
+    Continue
+Show
+    Code amu
+    Rarity Unique
+    SetDescription {Description}{Yellow}Wrath=>r21{Newline}
+    Continue
+Show
+    Code amu
+    Rarity Set
+    SetDescription {Description}{Yellow}Tal Rahsa=>r24{Newline}
+    Continue
+Show
+    Code "7qr",uul
+    Rarity Set
+    SetDescription {Description}{Yellow}=>3pg{Newline}
+    Continue
+Show
+    Code "9fc",xhb,"7sp",bac,obc,"7dg","7cr",dra,oba,"9ax",tgl
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r21{Newline}
+    Continue
+Show
+    Code ulg
+    Rarity Set
+    SetDescription {Description}{Yellow}=>r21{Newline}
+    Continue
+Show
+    Code xtb,uhm,uap,baa
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r22{Newline}
+    Continue
+Show
+    Code xea,"7sr","9cr"
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r22{Newline}
+    Continue
+Show
+    Code ne9,utc,paf,urn
+    Rarity Set
+    SetDescription {Description}{Yellow}=>r22{Newline}
+    Continue
+Show
+    Code "7gd","7wd"
+    Rarity Set
+    SetDescription {Description}{Yellow}pair of set weapon=>r22{Newline}
+    Continue
+Show
+    Code "9tr",xrs,upl
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r23{Newline}
+    Continue
+Show
+    Code uhg,uhb,uvg,"7sc",ulc,umc,"7ws",uit,nea
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r23{Newline}
+    Continue
+Show
+    Code ci3,uar
+    Rarity Set
+    SetDescription {Description}{Yellow}=>r23{Newline}
+    Continue
+Show
+    Code "9bs","9st",xhn,uvb,utu
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r24{Newline}
+    Continue
+Show
+    Code nef,"7fl",cm1,pa9,"7cr"
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r24{Newline}
+    Continue
+Show
+    Code 7ws
+    Rarity Set
+    SetDescription {Description}{Yellow}=>r24{Newline}
+    Continue
+Show
+    Code urn,"6lw"
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r25{Newline}
+    Continue
+Show
+    Code xh9
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r25{Newline}
+    Continue
+Show
+    Code uth
+    Rarity Set
+    SetDescription {Description}{Yellow}=>r25{Newline}
+    Continue
+Show
+    Code xpl,ama
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r26{Newline}
+    Continue
+Show
+    Code "6ws",obf
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r26{Newline}
+    Continue
+Show
+    Code uar
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r27{Newline}
+    Continue
+Show
+    Code usk
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r27{Newline}
+    Continue
+Show
+    Code "7pa","72a","7wa","7s8"
+    Rarity Unique
+    Ethereal True
+    SetDescription {Description}{Yellow}=>r28{Newline}
+    Continue
+Show
+    Code "7gw",ci3
+    Rarity Unique
+    SetDescription {Description}{Yellow}=>r28{Newline}
     Continue
 ######
 # END Local trade mod metadata
